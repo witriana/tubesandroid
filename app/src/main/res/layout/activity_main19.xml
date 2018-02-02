@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tubesklp.ceritarakyatsulawesi.Main19Activity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#54cfcd">
+
+    </View>
+
+    <RelativeLayout
+        android:id="@+id/rl_a3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/ib_a3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_account_balance_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/ib_a3_2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_close_black_24dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_a3_1"
+        android:background="#e4e1e1">
+
+        <LinearLayout
+            android:id="@+id/ll_a3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Sulawesi Tenggara"
+                    android:textColor="#36678f"
+                    android:textSize="30sp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/story1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:background="#bbdada"
+                android:text="1. Kisah La Sirimbone"
+                android:textAllCaps="false"
+                android:textColor="#181717"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/story2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:background="#bbdada"
+                android:text="2. La Moelu Si Anak Yatim "
+                android:textAllCaps="false"
+                android:textColor="#181717"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/story3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:background="#bbdada"
+                android:text="3. Si Kembar Indara Pitaraa Dan Siraapare"
+                android:textAllCaps="false"
+                android:textColor="#181717"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
